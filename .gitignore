@@ -1,0 +1,67 @@
+# Gradle build / cache
+.gradle/
+build/
+
+# Gradle wrapper - keep wrapper files under `gradle/wrapper/` committed
+# (no ignore entry for gradle/wrapper so wrapper stays in repo)
+
+# IntelliJ / IDE
+.idea/
+*.iml
+out/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Compiled / binary files
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.exe
+*.dll
+*.so
+
+# Logs, temp and tooling
+*.log
+tmp/
+temp/
+logs/
+
+# Test reports / coverage
+test-results/
+build/test-results/
+build/reports/
+jacoco.exec
+
+# Generated sources / annotation-processor outputs
+build/generated/
+**/generated/
+generated/
+
+# Native-image / GraalVM artifacts
+**/native-image/
+native-image/
+
+# Local config / secrets
+local.properties
+.env
+*.local
+
+# Editor / OS specific
+.vscode/
+*.swp
+
+# IDE / Eclipse
+.classpath
+.project
+.settings/
+
+# Maven (if ever used)
+target/
+
+# Personal session notes
+docs/NEXT.md
+docs/DEVLOG.md
